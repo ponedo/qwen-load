@@ -1,0 +1,9 @@
+{
+  "dataset": "THUDM/LongBench",
+  "revision": "5e628be450b7e67fb7ae6e201bd6d8f7056f7672",
+  "url": "https://huggingface.co/datasets/THUDM/LongBench/resolve/5e628be450b7e67fb7ae6e201bd6d8f7056f7672/data.zip",
+  "member": "data/narrativeqa.jsonl",
+  "zip_crc32": 2595374737,
+  "sha256": "0fb8d08ba5cdad4b74244224b0dc2e8b41ee6b850d954a13eb2d282621ce2f71",
+  "bytes": 22715627
+}

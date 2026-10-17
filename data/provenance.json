@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-30B-A3B",
+  "model_revision": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39",
+  "tokenizer_revision": "ad44e777bcd18fa416d9da3bd8f70d33ebb85d39",
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "add_special_tokens": false,
+  "chat_template_applied": false,
+  "padding_side": "right",
+  "dataset": "THUDM/LongBench",
+  "dataset_revision": "5e628be450b7e67fb7ae6e201bd6d8f7056f7672",
+  "source_sha256": "0fb8d08ba5cdad4b74244224b0dc2e8b41ee6b850d954a13eb2d282621ce2f71",
+  "note": "All requests are explicitly truncated real-text prefixes. Question may fall outside prefix. They are not complete LongBench evaluation requests."
+}

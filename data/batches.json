@@ -1,0 +1,128 @@
+[
+  {
+    "batch_id": "minimal",
+    "target_valid_tokens": 192,
+    "actual_valid_tokens": 192,
+    "request_ids": [
+      "minimal_r0"
+    ],
+    "request_lengths": [
+      192
+    ],
+    "request_count": 1
+  },
+  {
+    "batch_id": "single_256",
+    "target_valid_tokens": 256,
+    "actual_valid_tokens": 256,
+    "request_ids": [
+      "single_256_r0"
+    ],
+    "request_lengths": [
+      256
+    ],
+    "request_count": 1
+  },
+  {
+    "batch_id": "single_512",
+    "target_valid_tokens": 512,
+    "actual_valid_tokens": 512,
+    "request_ids": [
+      "single_512_r0"
+    ],
+    "request_lengths": [
+      512
+    ],
+    "request_count": 1
+  },
+  {
+    "batch_id": "single_1024",
+    "target_valid_tokens": 1024,
+    "actual_valid_tokens": 1024,
+    "request_ids": [
+      "single_1024_r0"
+    ],
+    "request_lengths": [
+      1024
+    ],
+    "request_count": 1
+  },
+  {
+    "batch_id": "single_2048",
+    "target_valid_tokens": 2048,
+    "actual_valid_tokens": 2048,
+    "request_ids": [
+      "single_2048_r0"
+    ],
+    "request_lengths": [
+      2048
+    ],
+    "request_count": 1
+  },
+  {
+    "batch_id": "single_4096",
+    "target_valid_tokens": 4096,
+    "actual_valid_tokens": 4096,
+    "request_ids": [
+      "single_4096_r0"
+    ],
+    "request_lengths": [
+      4096
+    ],
+    "request_count": 1
+  },
+  {
+    "batch_id": "single_8192",
+    "target_valid_tokens": 8192,
+    "actual_valid_tokens": 8192,
+    "request_ids": [
+      "single_8192_r0"
+    ],
+    "request_lengths": [
+      8192
+    ],
+    "request_count": 1
+  },
+  {
+    "batch_id": "batch_256",
+    "target_valid_tokens": 256,
+    "actual_valid_tokens": 256,
+    "request_ids": [
+      "batch_256_r0",
+      "batch_256_r1"
+    ],
+    "request_lengths": [
+      64,
+      192
+    ],
+    "request_count": 2
+  },
+  {
+    "batch_id": "batch_1024",
+    "target_valid_tokens": 1024,
+    "actual_valid_tokens": 1024,
+    "request_ids": [
+      "batch_1024_r0",
+      "batch_1024_r1"
+    ],
+    "request_lengths": [
+      256,
+      768
+    ],
+    "request_count": 2
+  },
+  {
+    "batch_id": "batch_4096",
+    "target_valid_tokens": 4096,
+    "actual_valid_tokens": 4096,
+    "request_ids": [
+      "batch_4096_r0",
+      "batch_4096_r1"
+    ],
+    "request_lengths": [
+      1024,
+      3072
+    ],
+    "request_count": 2
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "platform": "Linux-6.6.0-28.0.0.34.oe2403.aarch64-aarch64-with-glibc2.39",
+  "python": "3.13.13",
+  "packages": {
+    "torch": "2.6.0+cu126",
+    "transformers": "5.8.0",
+    "accelerate": "1.13.0",
+    "tokenizers": "0.23.1"
+  },
+  "nvidia-smi": "Sat Oct 17 22:41:57 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 570.133.20             Driver Version: 570.133.20     CUDA Version: 12.8     |\n|-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA A100-PCIE-40GB          Off |   00000000:17:00.0 Off |                    0 |\n| N/A   84C    P0            180W /  250W |    4005MiB /  40960MiB |     88%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A100-PCIE-40GB          Off |   00000000:96:00.0 Off |                    0 |\n| N/A   43C    P0             51W /  250W |   31387MiB /  40960MiB |      0%      Default |\n|                                         |                        |             Disabled |\n+-----------------------------------------+------------------------+----------------------+\n                                                                                         \n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "free -h": "               total        used        free      shared  buff/cache   available\nMem:           628Gi       357Gi       2.2Gi       1.6Gi       273Gi       270Gi\nSwap:           15Gi        15Gi          0B\n",
+  "df -h": "Filesystem      Size  Used Avail Use% Mounted on\noverlay          40G   26G   15G  64% /\ntmpfs            64M     0   64M   0% /dev\ntmpfs           315G     0  315G   0% /sys/fs/cgroup\nshm             4.0G     0  4.0G   0% /dev/shm\n/dev/sda         37T  6.1T   31T  17% /data\ntmpfs           315G   12K  315G   1% /proc/driver/nvidia\n/dev/sdb5       373G   52G  303G  15% /usr/bin/nvidia-smi\ntmpfs           315G     0  315G   0% /proc/acpi\ntmpfs           315G     0  315G   0% /proc/scsi\ntmpfs           315G     0  315G   0% /sys/firmware\n",
+  "nvcc --version": "",
+  "container_memory_limit_bytes": 17179869184,
+  "container_memory_usage_bytes": 3648393216
+}

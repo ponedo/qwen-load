@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.part
+*.safetensors
+*.bin
+.cache/
+offload/
+reports/install.log
+reports/download.log

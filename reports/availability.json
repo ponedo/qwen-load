@@ -1,0 +1,20 @@
+{
+  "status": "blocked_before_model_loading",
+  "timestamp_utc": "2026-10-17T14:47:18.858108+00:00",
+  "reason": "Official weight transfer too slow for interactive collection; no preexisting weights. Direct access fails. Slow probe stopped; resumable partials retained outside repository.",
+  "weight_bytes_required": 61066575648,
+  "weight_bytes_downloaded_partial": 75497472,
+  "measurement_seconds_approx": 285,
+  "aggregate_bytes_per_second_approx": 264903.4105263158,
+  "estimated_hours_at_observed_rate": 64.03442540168763,
+  "range_probe": {
+    "bytes": 1048576,
+    "seconds": 25.1751,
+    "http_status": 206
+  },
+  "real_model_forward_executed": false,
+  "real_trace_files": 0,
+  "stage1_passed": false,
+  "scale_expansion_started": false,
+  "oom_occurred": false
+}
